@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Converter
+{% endblock %}
+
+{% block main %}
+    <form  method="post" enctype="multipart/form-data" action="/upload" >
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    
+    <h2>Result:</h2>
+    {% if img_src %}
+        <img src={{ img_src }}>
+    {% endif %}
+    
+    {% if converted_file %}
+        <p> The extracted text from the image above is: <b> {{ converted_file }} </b></p>
+    {% else %}
+        <p> The extracted text will be displayed here... </p>
+    {% endif %}  
+{% endblock %}
+
+
