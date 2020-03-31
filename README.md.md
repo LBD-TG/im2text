@@ -3,8 +3,11 @@
 A web application which utilizes [Tesseract OCR](https://code.google.com/p/tesseract-ocr/) written in Python and which is based on the [Flask web microframework](http://flask.pocoo.org/). English, Bulgarian and French are the languages  supported. This technology allows to parse the text from an image.
 ### Usage
 The application usage is meant to make the process of scanning a text from an image seamless. All the user has to do is to: 
+1. Upload a photo;
+2. Choose the prefered language;
+3. Click convert.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NTI0MTc1XX0=
+eyJoaXN0b3J5IjpbMTMzNjI0OTA5M119
 -->
