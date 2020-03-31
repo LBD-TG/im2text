@@ -7,7 +7,9 @@ The application usage is meant to make the process of scanning a text from an im
 2. Choose the prefered language;
 3. Click convert.
 
+And then the program spits the text, ready to be copied from the user.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjI0OTA5M119
+eyJoaXN0b3J5IjpbMTUzNDM4ODIzMF19
 -->
