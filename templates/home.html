@@ -5,21 +5,26 @@
 {% endblock %}
 
 {% block main %}
-    <form  method="post" enctype="multipart/form-data" action="/upload" >
-        <input type="file" name="file">
-        <input type="submit" value="Upload">
+    
+    <form  method="post" enctype="multipart/form-data" action="/upload">
+        <label id="id" class="btn btn-info" style="width: 10%; min-width: 100px;">
+            Select file <input type="file" name="file" hidden>
+        </label>
+        <select id="id1" class="form-control" name="lang" style="float: left; width: 15%; min-width: 120px;">
+            <option disabled="" selected="" value="">Languages</option>
+                <option value="eng">English</option>
+                <option value="bul">Bulgarian</option> 
+                <option value="fra">French</option>          
+            </select>
+        <input id="id2" type="submit" class="btn btn-info" value="Convert" style="width: 10%; min-width: 100px;">
     </form>
+    <div class="jumbotron" style="margin-top: 10%; background-color:transparent !important;">
+        <h1>Result:</h1>  
     
-    <h2>Result:</h2>
-    {% if img_src %}
-        <img src={{ img_src }}>
-    {% endif %}
-    
-    {% if converted_file %}
-        <p> The extracted text from the image above is: <b> {{ converted_file }} </b></p>
-    {% else %}
-        <p> The extracted text will be displayed here... </p>
-    {% endif %}  
+        {% if converted_file %}
+            <p> <i>The extracted text from the image above is: </i> <br> <br> <b> {{ converted_file }} </b></p>
+        {% else %}
+            <p> The extracted text will be displayed here... </p>
+        {% endif %}
+    </div>
 {% endblock %}
-
-
