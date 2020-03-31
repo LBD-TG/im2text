@@ -10,9 +10,10 @@ The application usage is meant to make the process of scanning a text from an im
 And then the program spits the text, ready to be copied from the user.
 ### Visual
 The landing page of the web app is the following: [Page](https://drive.google.com/file/d/1gouwkqIVHBW65BjrLKHqabLLHk8boeBb/view?usp=sharing)
+This the page after the user converted the image: 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTM2MDM4MywtODM5NzA0MDI5LDE1Mz
-QzODgyMzBdfQ==
+eyJoaXN0b3J5IjpbLTEwMjUwODY3MDcsLTgzOTcwNDAyOSwxNT
+M0Mzg4MjMwXX0=
 -->
